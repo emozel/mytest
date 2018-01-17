@@ -15,7 +15,7 @@ if (version_compare(PHP_VERSION, '5.4.0', '<')) {
  *
  * @return void
  */
-spl_autoload_register(function ($class) {
+spl_autoload_register(function ($class_muhammed) {
     // project-specific namespace prefix
     $prefix = 'Facebook\\';
 
